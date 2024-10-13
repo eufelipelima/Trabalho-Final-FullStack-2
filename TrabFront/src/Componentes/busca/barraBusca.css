@@ -1,0 +1,51 @@
+.barra {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgb(69,68,68);
+    width: inherit;
+}
+
+.barra svg {
+    margin: 2px;
+}
+
+.barra input[type="text"] {
+    display: inline;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    width: 90%;
+}
+
+.resultado {
+    width: 100%;
+}
+
+.resultado ul {
+    display: none;
+    position: absolute;
+    float:left;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px rgb(69,68,68);
+    margin: 0;
+    padding: 1px;
+    background-color: whitesmoke;
+    width: 66%;
+}
+
+.resultado li {
+    list-style-type: none;
+    margin: 0;
+    margin-top: -1px;
+    padding: 3px;
+    border-bottom: 1px;
+}
+
+.resultado li:hover{
+    background-color: black;
+    color: white;
+}
